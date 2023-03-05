@@ -1,0 +1,6 @@
+1.下载wiki数据集
+#zhwiki.xml.bz2
+2.!pip install wikiextractor
+3.#处理wiki中文原始数据
+#cd /content/drive/MyDrive/wiki_data/
+#python -m wikiextractor.WikiExtractor -b 50M zhwiki.xml.bz2
